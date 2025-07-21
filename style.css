@@ -1,0 +1,83 @@
+body {
+  text-align: center;
+    background: linear-gradient(to bottom right, #fdf5e6, #f0d9b5);
+    margin:0;
+    padding:0;
+}
+h1{
+  background-color: rgb(107, 5, 5);
+color: rgba(220, 209, 150, 0.825);
+font-size: 40px;
+}
+
+ .maingrid {
+  display: grid;
+  grid-template-columns: repeat(3, 5rem);
+  grid-template-rows: repeat(3, 5rem);
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.maingrid div {
+  height: 5rem;
+  width: 5rem;
+  border: 2px solid #333;
+  font-size: 2.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #fff6e6;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.scoreflex {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.scoring {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  height: 20vh;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.scoring span {
+  font-size: 1rem;
+}
+
+.reset,
+.changeturns,.reset-scores {
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.reset:hover,
+.changeturns:hover,.reset-scores:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 0 0 10px black;
+  border: 0;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-weight: bolder;
+}
+button{
+  font-weight: bold;
+}
+ 
